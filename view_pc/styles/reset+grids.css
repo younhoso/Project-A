@@ -1,0 +1,68 @@
+
+/* ======== CSS RESET ======== */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, 
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline;
+border-collapse: collapse;}
+body {min-width: 320px; line-height:1; word-wrap: break-word; word-break: break-all;color: #333;}
+main,article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+ul li{list-style:none;}
+a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; font-size:100%; text-decoration: none; color: inherit; display: inline-block;}
+img {vertical-align:top;}
+
+button{outline: 0; border-radius: 0; -webkit-appearance: none; -moz-appearance: none;  -o-appearance: none; appearance: none;}
+input::-webkit-input-placeholder{color: #ededed; font-size: 12px; line-height: 100%;}
+input[type = tel][readonly],
+input[type = text][readonly],
+input[type = password][readonly],
+input[type = email][readonly],
+input[type = search][readonly],
+input[type = tel][disabled],
+input[type = text][disabled],
+input[type = password][disabled],
+input[type = email][disabled],
+input[type = search][disabled]{ -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+input[type = number]::-webkit-inner-spin-button, 
+input[type = number]::-webkit-outer-spin-button { -webkit-appearance: none; -moz-appearance: none; appearance: none; margin: 0;}
+::-webkit-scrollbar { display: none; }
+::-webkit-file-upload-button { cursor: pointer }
+
+/*========= GRID SYSTEM =========*/
+.l__wrapper    {max-width: 1200px;margin: 0 auto;padding: 0 10px; box-sizing: border-box; -webkit-box-sizing: border-box; position: relative;}
+.l_row         {margin: 0 -10px; overflow: hidden;}
+
+/*========= Clearfix =========*/
+.clearfix::after { content: ''; display: block; clear: both;}
+
+/*========= 이미지 썸네일 =========*/
+.thumb {width: 100%; height: auto; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

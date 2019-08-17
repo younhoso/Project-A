@@ -1,0 +1,15 @@
+
+.icon-basket:before { content: '\e801'; } /* '' */
+.icon-search:before { content: '\e802'; } /* '' */
+.icon-menu:before { content: '\f008'; } /* '' */
+.icon-th-thumb-empty:before { content: '\f00b'; } /* '' */
+.icon-angle-left:before { content: '\f104'; } /* '' */
+.icon-angle-right:before { content: '\f105'; } /* '' */
+.icon-angle-up:before { content: '\f106'; } /* '' */
+.icon-angle-down:before { content: '\f107'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-github:before { content: '\f300'; } /* '' */
+.icon-facebook-1:before { content: '\f30c'; } /* '' */
+.icon-gplus:before { content: '\f30f'; } /* '' */
+.icon-pinterest:before { content: '\f312'; } /* '' */
+.icon-dribbble-1:before { content: '\f31b'; } /* '' */
