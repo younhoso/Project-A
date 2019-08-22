@@ -1,0 +1,71 @@
+<html>
+	<head>
+	    <title>UI-guides</title>
+		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=2.0, user-scalable=yes'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+        <!-- 모바일 디바이스 채크 -->
+        <script language="JavaScript" type="text/JavaScript">
+            var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
+            for (var word in mobileKeyWords){
+                if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+                parent.window.location.href='모바일 경로';
+                break;
+                }
+            }
+        </script>
+        <!--DESIGN CSS-->
+        <link rel="stylesheet" href="./fontello/css/fontello.css">
+        <link rel="stylesheet" href="./styles/reset+grids.css">
+        <link rel="stylesheet" href="./styles/ui-guides.css">
+    </head>
+	<body>
+        <!-- Text boxes -->
+        <div class="input-field">
+            <input id="last_name" class="name" type="text">
+            <label for="last_name">Last Name</label>
+        </div>
+
+        <div class="input-field">
+            <input id="last_name" class="name" type="text">
+            <label for="last_name">First Name</label>
+        </div>
+
+        <div class="input-field">
+            <input id="last_name" class="name" type="text">
+            <label for="last_name">Password</label>
+        </div>
+
+         <!-- Buttons -->
+         <div class="btn-field black">
+            <button type="button">BUTTON</button>
+         </div>
+         <div class="btn-field white">
+            <button type="button">BUTTON</button>
+         </div>
+
+        <!-- icons -->
+        <i class="icon-basket"></i>
+        <i class="icon-search"></i>
+        <i class="icon-menu"></i>
+        <i class="icon-th-thumb-empty"></i>
+        <i class="icon-angle-left"></i>
+        <i class="icon-angle-right"></i>
+        <i class="icon-angle-up"></i>
+        <i class="icon-angle-down"></i>
+        <i class="icon-instagram"></i>
+        <i class="icon-github"></i>
+        <i class="icon-facebook-1"></i>
+        <i class="icon-gplus"></i>
+        <i class="icon-pinterest"></i>
+        <i class="icon-dribbble-1"></i>
+        <div class="hamburger__menu">
+            <i class="menu"></i>
+            <i class="menu"></i>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>
+        
