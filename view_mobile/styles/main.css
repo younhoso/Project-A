@@ -1,0 +1,33 @@
+
+.banner__list{ 
+    width: 320px;
+    height: 410px;
+}
+.banner__list a img{
+    width: 100%;
+}
+.main-nav{
+    width:320px;
+    white-space: nowrap;
+    overflow-x:scroll;
+    padding: 0 16px;
+    box-sizing: border-box;
+    
+}
+.main-nav::-webkit-scrollbar{
+    display: none;
+}
+.main-nav__list{
+    display: inline-block;
+    padding: 20px 16px 20px 0;
+    color: #333;
+}
+.main-nav__list.active{
+    font-weight: bold;
+}
+
+.test{
+    width: 320px;
+    height: 200px;
+    background-color: aqua;
+}
